@@ -5,7 +5,7 @@ Monitors heap usage and restarts nodes > 85%
 
 ```
 ssh ELASTICSEARCH_NODE_NAME
-cd ~ && git clone git@github.com:NewsWhip/es-restarter.git
+cd ~ && git clone https://github.com/NewsWhip/es-restarter.git
 cd es-restarter && ./install.sh
 sudo service elasticsearch-restarter restart
 ```

@@ -2,7 +2,7 @@
 
 MAX_MEM=85
 
-DIR=`pwd`
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 while :
 do
